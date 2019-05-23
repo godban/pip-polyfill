@@ -6,14 +6,12 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
     "http-server": "^0.11.1",
     "mocha": "^5.1.1"
-  },
-  "devDependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0"
   },
   "scripts": {
     "start": "http-server -p 8080",
@@ -30,7 +28,10 @@
     "in",
     "picture"
   ],
-  "author": "Guillaume Bentaieb",
+  "author": {
+    "name": "Guillaume Bentaieb",
+    "url": "https://github.com/gbentaieb"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gbentaieb/pip-polyfill/issues"
